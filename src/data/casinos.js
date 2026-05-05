@@ -14,6 +14,9 @@ export const casinos = [
     launchDate: "2012-01-01",
     addedDate: "2026-05-02",
     newStatus: "established",
+    minPurchase: "$2.99",
+    payments: ["Visa", "Apple Pay", "PayPal"],
+    availability: "Most US states",
 
     logo: "/logos/chumba.jpg",
     link: "https://example.com/ref",
@@ -62,6 +65,9 @@ export const casinos = [
   launchDate: "2022-01-01",
   addedDate: "2026-05-02",
   newStatus: "established",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/stake.jpg",
   link: "https://example.com/ref",
@@ -110,6 +116,9 @@ export const casinos = [
     launchDate: "2017-01-01",
     addedDate: "2026-05-02",
     newStatus: "established",
+    minPurchase: "$2.99",
+    payments: ["Visa", "Apple Pay", "PayPal"],
+    availability: "Most US states",
 
     logo: "/logos/luckyland.jpg",
     link: "https://example.com/ref",
@@ -136,6 +145,9 @@ export const casinos = [
   launchDate: "2023-01-01",
   addedDate: "2026-05-02",
   newStatus: "recent",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/mcluck.png",
   link: "https://example.com/ref",
@@ -184,6 +196,9 @@ export const casinos = [
   launchDate: "2020-01-01",
   addedDate: "2026-05-02",
   newStatus: "established",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/pulsz.jpg",
   link: "https://example.com/ref",
@@ -232,6 +247,9 @@ export const casinos = [
   launchDate: "2024-01-01",
   addedDate: "2026-05-02",
   newStatus: "recent",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/hellomillions.png",
   link: "https://example.com/ref",
@@ -280,6 +298,9 @@ export const casinos = [
   launchDate: "2023-01-01",
   addedDate: "2026-05-02",
   newStatus: "recent",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/wowvegas.jpg",
   link: "https://example.com/ref",
@@ -328,6 +349,9 @@ export const casinos = [
   launchDate: "2023-01-01",
   addedDate: "2026-05-02",
   newStatus: "recent",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/crowncoins.png",
   link: "https://example.com/ref",
@@ -376,6 +400,9 @@ export const casinos = [
   launchDate: "2024-01-01",
   addedDate: "2026-05-02",
   newStatus: "recent",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/sportzino.png",
   link: "https://example.com/ref",
@@ -424,6 +451,9 @@ export const casinos = [
   launchDate: "2016-01-01",
   addedDate: "2026-05-02",
   newStatus: "established",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/globalpoker.jpg",
   link: "https://example.com/ref",
@@ -472,6 +502,9 @@ export const casinos = [
   launchDate: "2024-01-01",
   addedDate: "2026-05-02",
   newStatus: "brand-new",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/chanced.jpg",
   link: "https://example.com/ref",
@@ -520,6 +553,9 @@ export const casinos = [
   launchDate: "2021-01-01",
   addedDate: "2026-05-02",
   newStatus: "established",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/fliff.jpg",
   link: "https://example.com/ref",
@@ -568,6 +604,9 @@ export const casinos = [
   launchDate: "2024-01-01",
   addedDate: "2026-05-02",
   newStatus: "brand-new",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/zula.jpg",
   link: "https://example.com/ref",
@@ -616,6 +655,9 @@ export const casinos = [
   launchDate: "2024-01-01",
   addedDate: "2026-05-02",
   newStatus: "brand-new",
+  minPurchase: "$2.99",
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
 
   logo: "/logos/stackr.jpg",
   link: "https://example.com/ref",

@@ -3,7 +3,6 @@ import { casinos } from "../data/casinos";
 
 function CasinoReview() {
   const { id } = useParams();
-
   const casino = casinos.find((c) => c.id === id);
 
   if (!casino) {
@@ -12,40 +11,48 @@ function CasinoReview() {
 
   return (
     <div className="sr-review-page">
-      {/* HERO */}
-      <div className="sr-review-hero">
-        <div className="sr-review-title-area">
-          <img
-            src={casino.logo}
-            alt={casino.name}
-            className="sr-review-logo"
-          />
+      {/* NEW REVIEW HERO */}
+      <section className="sr-review-hero-v2">
+        <div className="sr-review-brand-panel">
+          <img src={casino.logo} alt={casino.name} className="sr-review-logo" />
 
-          <div className="sr-review-text">
-            <h1>{casino.name} Review</h1>
-
-            <p>
-              {casino.overview ||
-                "This sweepstakes casino offers a mix of bonuses, gameplay, and features depending on your preferences."}
-            </p>
-          </div>
-          </div>
-
-        <div className="sr-review-summary-card">
-          <div className="sr-review-rating">
+          <div className="sr-review-score">
             <strong>{casino.rating}</strong>
             <span>Overall Rating</span>
           </div>
+        </div>
 
-          <div>
-            <strong>Best For:</strong>
-            <p>{casino.bestFor}</p>
-          </div>
+        <div className="sr-review-copy">
+          <p className="sr-eyebrow">Casino Review</p>
+          <h1>{casino.name} Review</h1>
 
-          <div>
-            <strong>Redemption:</strong>
-            <p>{casino.redemption}</p>
+          <p>
+            {casino.overview ||
+              "This sweepstakes casino offers a mix of bonuses, gameplay, and features depending on your preferences."}
+          </p>
+
+          <div className="sr-quick-info">
+            <span>
+              <strong>Min Purchase</strong>
+              {casino.minPurchase || "N/A"}
+            </span>
+
+            <span>
+              <strong>Payments</strong>
+              {casino.payments?.join(", ") || "N/A"}
+            </span>
+
+            <span>
+              <strong>Available</strong>
+              {casino.availability || "N/A"}
+            </span>
           </div>
+        </div>
+
+        <div className="sr-review-cta-card">
+          <span className="sr-label">{casino.label}</span>
+          <h2>{casino.bonus}</h2>
+          <p>Check the latest offer and terms before signing up.</p>
 
           <a
             href={casino.link}
@@ -56,12 +63,11 @@ function CasinoReview() {
             Claim Bonus
           </a>
         </div>
-      </div>
+      </section>
 
       {/* MAIN GRID */}
       <div className="sr-review-grid">
         <div className="sr-review-main">
-          {/* OVERVIEW */}
           <div className="sr-review-box">
             <h2>Overview</h2>
             <p>
@@ -70,7 +76,6 @@ function CasinoReview() {
             </p>
           </div>
 
-          {/* BONUS */}
           <div className="sr-review-box">
             <h2>Bonus & Promotions</h2>
             <p>
@@ -79,7 +84,6 @@ function CasinoReview() {
             </p>
           </div>
 
-          {/* LEGIT */}
           <div className="sr-review-box">
             <h2>Is {casino.name} Legit?</h2>
             <p>
@@ -88,7 +92,6 @@ function CasinoReview() {
             </p>
           </div>
 
-          {/* PROS / CONS */}
           <div className="sr-review-box">
             <h2>Pros & Cons</h2>
 
@@ -117,7 +120,6 @@ function CasinoReview() {
             </div>
           </div>
 
-          {/* FINAL VERDICT */}
           <div className="sr-review-box">
             <h2>Final Verdict</h2>
             <p>
@@ -127,7 +129,6 @@ function CasinoReview() {
           </div>
         </div>
 
-        {/* SIDEBAR */}
         <div className="sr-review-sidebar">
           <div className="sr-review-box">
             <h3>Quick Info</h3>
@@ -135,8 +136,8 @@ function CasinoReview() {
               <strong>Rating:</strong> {casino.rating}
             </p>
             <p>
-              <strong>Trustpilot:</strong>{" "}
-              {casino.trustpilotRating || "N/A"} ({casino.reviewCount || 0} reviews)
+              <strong>Trustpilot:</strong> {casino.trustpilotRating || "N/A"} (
+              {casino.reviewCount || 0} reviews)
             </p>
             <p>
               <strong>Launch Year:</strong>{" "}

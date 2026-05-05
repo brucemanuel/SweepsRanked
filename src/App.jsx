@@ -7,6 +7,7 @@ import NewCasinos from "./pages/NewCasinos";
 import FastRedemption from "./pages/FastRedemption";
 import CasinoReview from "./pages/CasinoReview";
 import AllCasinos from "./pages/AllCasinos";
+import BestCasinos from "./pages/BestCasinos";
 
 function Home() {
   const scrollRef = useRef(null);
@@ -64,12 +65,38 @@ function Home() {
               View All Casinos
             </a>
 
-            <a href="#categories" className="sr-secondary-btn">
-              Browse Categories
+            <a href="/best-sweepstakes-casinos" className="sr-secondary-btn">
+              Best Sweeps Casinos
             </a>
           </div>
         </div>
       </section>
+      <div className="sr-why-section">
+  <h2>Why Use SweepsRanked?</h2>
+
+  <div className="sr-why-grid">
+    <div>
+      <h3>Compare Casinos</h3>
+      <p>
+        Easily compare sweepstakes casinos by ratings, bonuses, and user experience.
+      </p>
+    </div>
+
+    <div>
+      <h3>Find Fast Payouts</h3>
+      <p>
+        Discover which platforms offer faster redemption times and smoother withdrawals.
+      </p>
+    </div>
+
+    <div>
+      <h3>Trusted Reviews</h3>
+      <p>
+        Get clear, structured reviews to help you choose the right platform.
+      </p>
+    </div>
+  </div>
+</div>
 
       <section id="top-casinos" className="sr-section">
         <div className="sr-section-heading">
@@ -202,7 +229,7 @@ function App() {
 
   <nav className={`sr-nav-links ${menuOpen ? "open" : ""}`}>
     <a href="/all-casinos">All Casinos</a>
-    <a href="/top-casinos">Top Casinos</a>
+    <a href="/best-sweepstakes-casinos">Best Casinos</a>
     <a href="/new-casinos">New Casinos</a>
   </nav>
 </header>
@@ -215,6 +242,7 @@ function App() {
           <Route path="/fast-redemption" element={<FastRedemption />} />
           <Route path="/casino/:id" element={<CasinoReview />} />
           <Route path="/all-casinos" element={<AllCasinos />} />
+          <Route path="/best-sweepstakes-casinos" element={<BestCasinos />} />
         </Routes>
       </main>
 

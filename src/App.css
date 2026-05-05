@@ -898,3 +898,315 @@ a {
 .sr-casino-card {
   cursor: pointer;
 }
+
+.sr-quick-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.sr-quick-info span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.75);
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.sr-quick-info strong {
+  color: #60a5fa;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Review hero v2 */
+.sr-review-hero-v2 {
+  display: grid;
+  grid-template-columns: 220px 1fr 320px;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.sr-review-brand-panel,
+.sr-review-copy,
+.sr-review-cta-card {
+  background: rgba(17, 24, 39, 0.86);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 26px;
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.24);
+}
+
+.sr-review-brand-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+}
+
+.sr-review-brand-panel .sr-review-logo {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.sr-review-score strong {
+  display: block;
+  font-size: 2.4rem;
+  color: #f8fafc;
+}
+
+.sr-review-score span {
+  color: #94a3b8;
+  font-weight: 800;
+}
+
+.sr-review-copy h1 {
+  margin: 0;
+  font-size: clamp(2.3rem, 5vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+  color: #f8fafc;
+}
+
+.sr-review-copy p {
+  max-width: 780px;
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+.sr-review-cta-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.sr-review-cta-card h2 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: 1.4rem;
+}
+
+.sr-review-cta-card p {
+  margin: 0;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+@media (max-width: 1000px) {
+  .sr-review-hero-v2 {
+    grid-template-columns: 1fr;
+  }
+
+  .sr-review-brand-panel {
+    align-items: flex-start;
+  }
+
+  .sr-review-brand-panel .sr-review-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Best Sweepstakes Casinos page */
+.sr-best-page {
+  padding: 70px 4%;
+}
+
+.sr-best-hero {
+  max-width: 900px;
+  margin-bottom: 34px;
+}
+
+.sr-best-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.07em;
+  color: #f8fafc;
+}
+
+.sr-best-hero p {
+  max-width: 720px;
+  color: #94a3b8;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.sr-best-featured {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 44px;
+  padding: 32px;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.25), transparent 35%),
+    rgba(17, 24, 39, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sr-best-featured h2 {
+  margin: 16px 0 10px;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  color: #f8fafc;
+}
+
+.sr-best-featured p {
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+.sr-best-featured img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  justify-self: center;
+}
+
+.sr-best-badge {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.15);
+  color: #93c5fd;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.sr-best-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 22px;
+  max-width: 360px;
+}
+
+.sr-best-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 28px;
+}
+
+.sr-best-main h2 {
+  color: #f8fafc;
+  margin-top: 0;
+}
+
+.sr-best-row {
+  display: grid;
+  grid-template-columns: 60px 64px 1fr auto;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 14px;
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(17, 24, 39, 0.86);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+}
+
+.sr-best-row:hover {
+  border-color: rgba(96, 165, 250, 0.4);
+}
+
+.sr-best-rank {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #60a5fa;
+}
+
+.sr-best-row img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.sr-best-row h3 {
+  margin: 0 0 4px;
+  color: #f8fafc;
+}
+
+.sr-best-row p {
+  margin: 0;
+  color: #94a3b8;
+}
+
+.sr-best-row strong {
+  color: #f8fafc;
+}
+
+.sr-best-sidebar {
+  display: grid;
+  gap: 18px;
+  align-content: start;
+}
+
+@media (max-width: 900px) {
+  .sr-best-featured,
+  .sr-best-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sr-best-featured img {
+    justify-self: start;
+    width: 110px;
+    height: 110px;
+  }
+
+  .sr-best-row {
+    grid-template-columns: 48px 54px 1fr;
+  }
+
+  .sr-best-row strong {
+    grid-column: 2 / -1;
+  }
+}
+
+.sr-why-section {
+  margin: 40px 0 10px;
+  padding: 0 4%; /* 🔥 this adds space on left/right */
+  text-align: center;
+}
+
+.sr-why-section h2 {
+  color: #f8fafc;
+  margin-bottom: 20px;
+}
+
+.sr-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.sr-why-grid div {
+  padding: 18px;
+  border-radius: 16px;
+  background: rgba(17, 24, 39, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.sr-why-grid h3 {
+  margin-bottom: 6px;
+  color: #f8fafc;
+}
+
+.sr-why-grid p {
+  color: #94a3b8;
+}
+
+@media (max-width: 800px) {
+  .sr-why-grid {
+    grid-template-columns: 1fr;
+  }
+}
