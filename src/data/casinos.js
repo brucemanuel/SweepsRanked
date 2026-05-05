@@ -17,6 +17,7 @@ export const casinos = [
     minPurchase: "$2.99",
     payments: ["Visa", "Apple Pay", "PayPal"],
     availability: "Most US states",
+    minRedemption: "$50",
 
     logo: "/logos/chumba.jpg",
     link: "https://example.com/ref",
@@ -68,6 +69,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/stake.jpg",
   link: "https://example.com/ref",
@@ -119,6 +121,7 @@ export const casinos = [
     minPurchase: "$2.99",
     payments: ["Visa", "Apple Pay", "PayPal"],
     availability: "Most US states",
+    minRedemption: "$50",
 
     logo: "/logos/luckyland.jpg",
     link: "https://example.com/ref",
@@ -148,6 +151,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/mcluck.png",
   link: "https://example.com/ref",
@@ -199,6 +203,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/pulsz.jpg",
   link: "https://example.com/ref",
@@ -250,6 +255,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/hellomillions.png",
   link: "https://example.com/ref",
@@ -301,6 +307,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/wowvegas.jpg",
   link: "https://example.com/ref",
@@ -352,6 +359,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/crowncoins.png",
   link: "https://example.com/ref",
@@ -403,6 +411,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/sportzino.png",
   link: "https://example.com/ref",
@@ -454,6 +463,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/globalpoker.jpg",
   link: "https://example.com/ref",
@@ -505,6 +515,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/chanced.jpg",
   link: "https://example.com/ref",
@@ -556,6 +567,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/fliff.jpg",
   link: "https://example.com/ref",
@@ -607,6 +619,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/zula.jpg",
   link: "https://example.com/ref",
@@ -658,6 +671,7 @@ export const casinos = [
   minPurchase: "$2.99",
   payments: ["Visa", "Apple Pay", "PayPal"],
   availability: "Most US states",
+  minRedemption: "$50",
 
   logo: "/logos/stackr.jpg",
   link: "https://example.com/ref",

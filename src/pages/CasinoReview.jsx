@@ -11,9 +11,10 @@ function CasinoReview() {
 
   return (
     <div className="sr-review-page">
-      {/* NEW REVIEW HERO */}
       <section className="sr-review-hero-v2">
         <div className="sr-review-brand-panel">
+          <div className="sr-mobile-rating-badge">★ {casino.rating}</div>
+
           <img src={casino.logo} alt={casino.name} className="sr-review-logo" />
 
           <div className="sr-review-score">
@@ -38,13 +39,13 @@ function CasinoReview() {
             </span>
 
             <span>
-              <strong>Payments</strong>
-              {casino.payments?.join(", ") || "N/A"}
+              <strong>Min Redemption</strong>
+              {casino.minRedemption || "N/A"}
             </span>
 
             <span>
-              <strong>Available</strong>
-              {casino.availability || "N/A"}
+              <strong>Payments</strong>
+              {casino.payments?.join(", ") || "N/A"}
             </span>
           </div>
         </div>
@@ -62,10 +63,11 @@ function CasinoReview() {
           >
             Claim Bonus
           </a>
+
+          <small>T&Cs apply</small>
         </div>
       </section>
 
-      {/* MAIN GRID */}
       <div className="sr-review-grid">
         <div className="sr-review-main">
           <div className="sr-review-box">

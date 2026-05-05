@@ -1301,3 +1301,167 @@ a {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Mobile casino review promo-card layout */
+.sr-mobile-rating-badge {
+  display: none;
+}
+
+.sr-review-cta-card small {
+  text-align: center;
+  color: #64748b;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .sr-review-page {
+    padding: 16px 4% 32px;
+  }
+
+  .sr-review-hero-v2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(17, 24, 39, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 22px 55px rgba(0, 0, 0, 0.28);
+  }
+
+  .sr-review-brand-panel,
+  .sr-review-copy,
+  .sr-review-cta-card {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .sr-review-brand-panel {
+    position: relative;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    border-radius: 14px;
+    background: rgba(15, 23, 42, 0.75);
+  }
+
+  .sr-review-brand-panel .sr-review-logo {
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  .sr-review-score {
+    display: none;
+  }
+
+  .sr-mobile-rating-badge {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 7px 10px;
+    border-radius: 9px;
+    background: rgba(31, 41, 55, 0.95);
+    color: #f8fafc;
+    font-size: 0.9rem;
+    font-weight: 900;
+  }
+
+  .sr-review-copy {
+    text-align: left;
+  }
+
+  .sr-review-copy .sr-eyebrow {
+    color: #ffffff;
+    margin-bottom: 6px;
+  }
+
+  .sr-review-copy h1 {
+    font-size: 1.9rem;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    margin-bottom: 10px;
+  }
+
+  .sr-review-copy > p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin-bottom: 16px;
+  }
+
+  .sr-quick-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .sr-quick-info span {
+    align-items: center;
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 14px;
+    background: rgba(15, 23, 42, 0.85);
+  }
+
+  .sr-quick-info span:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .sr-quick-info strong {
+    color: #516de7;
+  }
+
+  .sr-review-cta-card {
+    margin-top: 18px;
+    gap: 12px;
+  }
+
+  .sr-review-cta-card .sr-label {
+    align-self: flex-start;
+  }
+
+  .sr-review-cta-card h2 {
+    font-size: 1.75rem;
+    line-height: 1.05;
+    margin: 0;
+  }
+
+  .sr-review-cta-card p {
+    color: #94a3b8;
+    margin: 0;
+  }
+
+  .sr-review-cta-card .sr-claim-btn {
+    margin-top: 8px;
+    border-radius: 14px;
+    padding: 14px;
+    font-size: 1rem;
+  }
+
+  .sr-review-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 18px;
+  }
+
+  .sr-review-main {
+    gap: 16px;
+  }
+
+  .sr-review-box {
+    padding: 20px;
+    border-radius: 18px;
+  }
+
+  .sr-pros-cons {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
