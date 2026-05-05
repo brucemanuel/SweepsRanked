@@ -2,9 +2,7 @@ import { casinos } from "../data/casinos";
 
 function BestCasinos() {
   const bestCasinos = [...casinos]
-    .filter((casino) => casino.isTop)
-    .sort((a, b) => b.trustpilotRating - a.trustpilotRating)
-    .slice(0, 5);
+  .sort((a, b) => b.rating - a.rating);
 
   const featuredCasino = bestCasinos[0];
   const remainingCasinos = bestCasinos.slice(1);
