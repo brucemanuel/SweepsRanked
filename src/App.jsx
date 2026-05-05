@@ -8,6 +8,12 @@ import FastRedemption from "./pages/FastRedemption";
 import CasinoReview from "./pages/CasinoReview";
 import AllCasinos from "./pages/AllCasinos";
 import BestCasinos from "./pages/BestCasinos";
+import Disclaimer from "./pages/Disclaimer";
+import ResponsiblePlay from "./pages/ResponsiblePlay";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Terms from "./pages/Terms";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function Home() {
   const scrollRef = useRef(null);
@@ -243,13 +249,60 @@ function App() {
           <Route path="/casino/:id" element={<CasinoReview />} />
           <Route path="/all-casinos" element={<AllCasinos />} />
           <Route path="/best-sweepstakes-casinos" element={<BestCasinos />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
+          <Route path="/responsible-play" element={<ResponsiblePlay />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
 
-      <footer className="sr-footer">
-        <p>© 2026 SweepsRanked</p>
-        <p>Informational only. Play responsibly.</p>
-      </footer>
+     <footer className="sr-footer">
+  <div className="sr-footer-grid">
+    <div className="sr-footer-brand">
+      <h3>SweepsRanked</h3>
+      <p>
+        SweepsRanked helps users compare sweepstakes casinos by bonuses,
+        ratings, redemption speed, payment options, and overall user experience.
+      </p>
+      <p>
+        We do not operate any casino. Always review official terms,
+        availability, and redemption rules before signing up.
+      </p>
+    </div>
+
+    <div className="sr-footer-column">
+      <h4>Resources</h4>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/terms">Terms</a>
+      <a href="/disclaimer">Disclaimer</a>
+    </div>
+
+    <div className="sr-footer-column">
+      <h4>Popular Pages</h4>
+      <a href="/best-sweepstakes-casinos">Best Casinos</a>
+      <a href="/all-casinos">All Casinos</a>
+      <a href="/new-casinos">New Casinos</a>
+      <a href="/fast-redemption">Fast Redemption</a>
+    </div>
+
+    <div className="sr-footer-column">
+      <h4>Responsible Play</h4>
+      <p>
+        Sweepstakes casinos are intended for adults only. Play responsibly and
+        never spend more than you can afford.
+      </p>
+      <a href="/responsible-play">Responsible Play Resources</a>
+    </div>
+  </div>
+
+  <div className="sr-footer-bottom">
+    <p>© {new Date().getFullYear()} SweepsRanked. All rights reserved.</p>
+  </div>
+</footer>
     </div>
   );
 }
