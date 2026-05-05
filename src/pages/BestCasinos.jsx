@@ -64,12 +64,10 @@ function BestCasinos() {
 
               <img src={casino.logo} alt={casino.name} />
 
-              <div>
+              <div className="sr-best-info">
                 <h3>{casino.name}</h3>
                 <p>{casino.bestFor}</p>
               </div>
-
-              <strong>{casino.rating}/5</strong>
             </article>
           ))}
         </div>
