@@ -5,7 +5,7 @@ export const casinos = [
     label: "Best Overall",
     rating: 4.8,
     bonus: "Signup bonus available",
-    bestFor: "Beginners and casual sweepstakes casino players",
+    bestFor: "Beginners",
     redemption: "Standard",
 
     trustpilotRating: 4.2,
@@ -414,7 +414,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/sportzino.png",
-  link: "https://example.com/ref",
+  link: "https://track.sportzino.fun/click?o=2&a=102152&c=18",
 
   isTop: false,
   isNew: true,
@@ -622,7 +622,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/zula.jpg",
-  link: "https://example.com/ref",
+  link: "https://track.zulacasino.fun/click?o=3&a=102152&c=17",
 
   isTop: false,
   isNew: true,
@@ -704,5 +704,204 @@ export const casinos = [
 
   finalVerdict:
     "Stackr is a newer option that may appeal to early adopters looking for a fresh platform. It is still developing but has potential as it grows."
+},
+{
+  id: "fortunewins",
+  name: "Fortune Wins",
+  logo: "/logos/fortunewins.png",
+
+  rating: 4.4,
+  trustpilotRating: 4.2,
+  reviewCount: 1200,
+
+  label: "Trending",
+  bonus: "Welcome bonus available",
+
+  bestFor: "Slots & bonuses",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
+
+  launchDate: "2025-11-01",
+  redemptionScore: 7.8,
+
+  link: "https://track.fortunecoins.fun/click?o=1&a=102152&c=16",
+
+  overview:
+    "Fortune Wins is a sweepstakes casino focused on slot-style gameplay, promotional offers, and an easy-to-use experience for new and returning players.",
+
+  bonusBreakdown:
+    "Fortune Wins frequently offers welcome bonuses and promotional rewards depending on availability and region.",
+
+  legitSummary:
+    "Fortune Wins operates using the sweepstakes casino model and is available in eligible US regions.",
+
+  finalVerdict:
+    "Fortune Wins is a solid option for users looking for a modern sweepstakes casino with regular promotions and straightforward gameplay.",
+
+  pros: [
+    "Frequent bonus offers",
+    "Simple platform layout",
+    "Large slot selection"
+  ],
+
+  cons: [
+    "Redemption times may vary",
+    "Limited state availability"
+  ]
+},
+
+{
+  id: "yaycasino",
+  name: "Yay Casino",
+  logo: "/logos/yaycasino.png",
+
+  rating: 4.3,
+  trustpilotRating: 4.1,
+  reviewCount: 940,
+
+  label: "New",
+  bonus: "Welcome bonus available",
+
+  bestFor: "Casual players",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "PayPal"],
+  availability: "Most US states",
+
+  launchDate: "2025-12-01",
+  redemptionScore: 7.4,
+
+  link: "https://track.yaycasino.fun/click?o=5&a=102152&c=28",
+
+  overview:
+    "Yay Casino offers a clean sweepstakes casino experience with promotional bonuses, slot-style games, and beginner-friendly navigation.",
+
+  bonusBreakdown:
+    "New users may receive promotional offers and bonus rewards depending on region and current promotions.",
+
+  legitSummary:
+    "Yay Casino uses the sweepstakes casino model and is available in eligible regions.",
+
+  finalVerdict:
+    "Yay Casino is a decent option for newer players looking for a simple and modern sweepstakes platform.",
+
+  pros: [
+    "Easy-to-use interface",
+    "Beginner-friendly",
+    "Regular promotions"
+  ],
+
+  cons: [
+    "Smaller game library",
+    "Redemption speeds may vary"
+  ]
+},
+
+{
+  id: "americanluck",
+  name: "American Luck",
+  logo: "/logos/americanluck.png",
+
+  rating: 4.2,
+  trustpilotRating: 4.0,
+  reviewCount: 760,
+
+  label: "Popular",
+  bonus: "Welcome bonus available",
+
+  bestFor: "Promotions",
+  redemption: "Moderate",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Apple Pay", "PayPal"],
+  availability: "Most US states",
+
+  launchDate: "2025-10-15",
+  redemptionScore: 7.1,
+
+  link: "https://track.americanluck.com/click?o=7&a=102152&c=50",
+
+  overview:
+    "American Luck is a sweepstakes casino offering slot-style gameplay, promotional rewards, and a modern mobile-friendly experience.",
+
+  bonusBreakdown:
+    "Players may receive promotional bonuses and sweepstakes rewards depending on active offers.",
+
+  legitSummary:
+    "American Luck operates under the sweepstakes casino model in eligible regions.",
+
+  finalVerdict:
+    "American Luck may be a good fit for users focused on promotional offers and casual sweepstakes gameplay.",
+
+  pros: [
+    "Mobile-friendly experience",
+    "Frequent promotions",
+    "Simple navigation"
+  ],
+
+  cons: [
+    "Limited payment options",
+    "Lower brand recognition"
+  ]
+},
+
+{
+  id: "luckparty",
+  name: "Luck Party",
+  logo: "/logos/luckparty.png",
+
+  rating: 4.1,
+  trustpilotRating: 3.9,
+  reviewCount: 610,
+
+  label: "Rising",
+  bonus: "Welcome bonus available",
+
+  bestFor: "New users",
+  redemption: "Standard",
+
+  minPurchase: "$3.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "PayPal", "Apple Pay"],
+  availability: "Most US states",
+
+  launchDate: "2026-01-10",
+  redemptionScore: 7.0,
+
+  link: "YOUR_LUCK_PARTY_AFFILIATE_LINK",
+
+  overview:
+    "Luck Party is a newer sweepstakes casino platform focused on accessible gameplay, promotional bonuses, and a straightforward user experience.",
+
+  bonusBreakdown:
+    "Luck Party may offer rotating promotions and signup rewards for eligible users.",
+
+  legitSummary:
+    "Luck Party operates using the sweepstakes casino model and is available in supported regions.",
+
+  finalVerdict:
+    "Luck Party is a newer platform that may appeal to users looking for a simpler sweepstakes casino experience.",
+
+  pros: [
+    "Clean interface",
+    "Low minimum purchase",
+    "Good for casual players"
+  ],
+
+  cons: [
+    "Newer platform",
+    "Smaller overall reputation"
+  ]
 },
 ];
