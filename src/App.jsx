@@ -14,6 +14,9 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import News from "./pages/News";
+import { news } from "./data/news";
+
 
 function Home() {
   const scrollRef = useRef(null);
@@ -184,7 +187,30 @@ function Home() {
           )}
         </div>
       </section>
+      <section id="top-casinos" className="sr-section">
+        <section className="sr-section">
+            <div className="sr-section-heading">
+              <p className="sr-eyebrow">Latest Updates</p>
+              <h2>Latest Sweepstakes Casino News</h2>
+              <p>Read the newest guides, comparisons, and sweepstakes casino updates.</p>
+            </div>
 
+            <div className="sr-home-news-scroll">
+              {news.slice(0, 4).map((article) => (
+                <article
+                  key={article.id}
+                  className="sr-home-news-card"
+                  onClick={() => (window.location.href = `/news/${article.id}`)}
+                >
+                  <span className="sr-news-category">{article.category}</span>
+                  <h3>{article.title}</h3>
+                  <p>{article.description}</p>
+                  <span className="sr-news-read">Read Article →</span>
+                </article>
+              ))}
+            </div>
+          </section>
+      </section>
       <section id="categories" className="sr-section sr-categories-section">
         <div className="sr-section-heading">
           <p className="sr-eyebrow">Browse</p>
@@ -237,6 +263,7 @@ function App() {
     <a href="/all-casinos">All Casinos</a>
     <a href="/best-sweepstakes-casinos">Best Casinos</a>
     <a href="/new-casinos">New Casinos</a>
+    <a href="/news">News</a>
   </nav>
 </header>
 
@@ -255,6 +282,7 @@ function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/news" element={<News />} />
         </Routes>
       </main>
 

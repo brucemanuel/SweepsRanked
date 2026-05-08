@@ -1550,3 +1550,166 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* News page */
+.sr-news-page {
+  padding: 70px 4%;
+}
+
+.sr-news-hero {
+  max-width: 850px;
+  margin-bottom: 40px;
+}
+
+.sr-news-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  color: #f8fafc;
+}
+
+.sr-news-hero p {
+  max-width: 700px;
+  color: #94a3b8;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.sr-news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.sr-news-card {
+  overflow: hidden;
+  border-radius: 24px;
+  background: rgba(17, 24, 39, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sr-news-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(96, 165, 250, 0.35);
+}
+
+.sr-news-image-placeholder {
+  height: 210px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(59, 130, 246, 0.28),
+      rgba(15, 23, 42, 0.95)
+    );
+}
+
+.sr-news-content {
+  padding: 24px;
+}
+
+.sr-news-category {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #93c5fd;
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.sr-news-content h2 {
+  margin: 0 0 10px;
+  color: #f8fafc;
+}
+
+.sr-news-content p {
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+.sr-news-read {
+  display: inline-block;
+  margin-top: 18px;
+  color: #60a5fa;
+  font-weight: 800;
+}
+
+@media (max-width: 800px) {
+  .sr-news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sr-news-page {
+    padding-top: 50px;
+  }
+
+  .sr-news-content {
+    padding: 20px;
+  }
+
+  .sr-news-image-placeholder {
+    height: 170px;
+  }
+}
+
+/* Homepage latest news carousel */
+.sr-home-news-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: 8px;
+}
+
+.sr-home-news-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.sr-home-news-card {
+  min-width: 320px;
+  max-width: 380px;
+  scroll-snap-align: start;
+  padding: 24px;
+  border-radius: 22px;
+  background: rgba(17, 24, 39, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sr-home-news-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(96, 165, 250, 0.35);
+}
+
+.sr-home-news-card h3 {
+  margin: 10px 0;
+  color: #f8fafc;
+}
+
+.sr-home-news-card p {
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+/* Reduce spacing above homepage news section */
+.sr-home-news-scroll {
+  margin-top: 20px;
+}
+
+.sr-section-heading {
+  margin-bottom: 24px;
+}
+
+#top-casinos + .sr-section {
+  padding-top: 1px;
+}
+
+@media (max-width: 700px) {
+  .sr-home-news-card {
+    min-width: 82%;
+  }
+}
