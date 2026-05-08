@@ -16,6 +16,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import News from "./pages/News";
 import { news } from "./data/news";
+import NewsArticle from "./pages/NewsArticle";
 
 
 function Home() {
@@ -283,6 +284,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/news" element={<News />} />
+          <Route path="/news/:id" element={<NewsArticle />} />
         </Routes>
       </main>
 
