@@ -20,7 +20,7 @@ export const casinos = [
     minRedemption: "$50",
 
     logo: "/logos/chumba.jpg",
-    link: "https://example.com/ref",
+    link: "https://www.chumbacasino.com/",
 
     isTop: true,
     isNew: false,
@@ -72,7 +72,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/stake.jpg",
-  link: "https://example.com/ref",
+  link: "https://stake.us/",
 
   isTop: true,
   isNew: false,
@@ -124,7 +124,7 @@ export const casinos = [
     minRedemption: "$50",
 
     logo: "/logos/luckyland.jpg",
-    link: "https://example.com/ref",
+    link: "https://luckylandcasino.com/",
 
     isTop: true,
     isNew: false,
@@ -154,7 +154,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/mcluck.png",
-  link: "https://example.com/ref",
+  link: "https://www.mcluck.com/",
 
   isTop: true,
   isNew: true,
@@ -206,7 +206,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/pulsz.jpg",
-  link: "https://example.com/ref",
+  link: "https://www.pulsz.com/",
 
   isTop: true,
   isNew: false,
@@ -258,7 +258,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/hellomillions.png",
-  link: "https://example.com/ref",
+  link: "https://www.hellomillions.com/",
 
   isTop: true,
   isNew: true,
@@ -310,7 +310,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/wowvegas.jpg",
-  link: "https://example.com/ref",
+  link: "https://www.wowvegas.com/",
 
   isTop: true,
   isNew: true,
@@ -362,7 +362,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/crowncoins.png",
-  link: "https://example.com/ref",
+  link: "https://crowncoinscasino.com/",
 
   isTop: true,
   isNew: false,
@@ -466,7 +466,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/globalpoker.jpg",
-  link: "https://example.com/ref",
+  link: "https://globalpoker.com/",
 
   isTop: true,
   isNew: false,
@@ -518,7 +518,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/chanced.jpg",
-  link: "https://example.com/ref",
+  link: "https://chanced.com/",
 
   isTop: false,
   isNew: true,
@@ -570,7 +570,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/fliff.jpg",
-  link: "https://example.com/ref",
+  link: "https://www.getfliff.com/",
 
   isTop: false,
   isNew: false,
@@ -879,7 +879,7 @@ export const casinos = [
   launchDate: "2026-01-10",
   redemptionScore: 7.0,
 
-  link: "YOUR_LUCK_PARTY_AFFILIATE_LINK",
+  link: "https://track.luckparty.com/click?o=8&a=102152&c=57",
 
   overview:
     "Luck Party is a newer sweepstakes casino platform focused on accessible gameplay, promotional bonuses, and a straightforward user experience.",
