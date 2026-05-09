@@ -15,46 +15,48 @@ function NewsArticle() {
 
   return (
     <article className="sr-article-page">
-      <header className="sr-article-hero">
-        <span className="sr-news-category">{article.category}</span>
+      <div className="sr-article-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <a href="/news">News</a>
+        <span>›</span>
+        <span>{article.category}</span>
+      </div>
 
-        <h1>{article.title}</h1>
+      <header className="sr-article-hero-layout">
+        <div className="sr-article-hero-copy">
+          <span className="sr-news-category">{article.category}</span>
 
-        <p>{article.description}</p>
+          <h1>{article.title}</h1>
 
-        {article.publishedDate && (
-          <p className="sr-article-date">
-            Updated {new Date(article.publishedDate).toLocaleDateString()}
-          </p>
-        )}
-      </header>
+          <p>{article.description}</p>
 
-      <div className="sr-article-shell">
-        <div className="sr-article-intro-card">
-          <h2>Quick Overview</h2>
-          <p>
-            This guide breaks down the basics in plain language so you can
-            understand how sweepstakes casinos work before choosing where to
-            play.
-          </p>
+          {article.publishedDate && (
+            <p className="sr-article-date">
+              Updated {new Date(article.publishedDate).toLocaleDateString()}
+            </p>
+          )}
         </div>
 
-        <div className="sr-article-sections">
+        <div
+          className="sr-article-hero-image"
+          style={{ backgroundImage: `url(${article.image})` }}
+        ></div>
+      </header>
+
+      <main className="sr-article-card">
+        <h2>{article.title}</h2>
+
+        <div className="sr-article-timeline">
           {article.sections.map((section, index) => (
-            <section
-              key={index}
-              className={
-                index % 2 === 0
-                  ? "sr-article-section"
-                  : "sr-article-section reverse"
-              }
-            >
-              <div className="sr-article-section-heading">
-                <span>{String(index + 1).padStart(2, "0")}</span>
-                <h2>{section.heading}</h2>
+            <section className="sr-article-timeline-item" key={index}>
+              <div className="sr-article-number">
+                {String(index + 1).padStart(2, "0")}
               </div>
 
-              <div className="sr-article-section-body">
+              <div className="sr-article-section-content">
+                <h3>{section.heading}</h3>
+
                 {section.paragraphs.map((paragraph, paragraphIndex) => (
                   <p key={paragraphIndex}>{paragraph}</p>
                 ))}
@@ -63,18 +65,35 @@ function NewsArticle() {
           ))}
         </div>
 
-        <div className="sr-article-cta">
-          <h2>Compare Sweepstakes Casinos</h2>
-          <p>
-            Ready to compare platforms? View our ranked list of sweepstakes
-            casinos and read full reviews before signing up.
-          </p>
+        <div className="sr-article-conclusion">
+          <div className="sr-article-icon">★</div>
 
-          <a href="/best-sweepstakes-casinos" className="sr-claim-btn">
-            View Best Casinos
-          </a>
+          <div>
+            <h2>Final Takeaway</h2>
+            <p>
+              Sweepstakes casinos can be fun and easy to explore, but users
+              should always compare platforms carefully, read the official terms,
+              understand redemption rules, and play responsibly.
+            </p>
+          </div>
         </div>
-      </div>
+
+        <div className="sr-article-cta">
+          <div className="sr-article-icon">🎁</div>
+
+          <div>
+            <h2>Ready to Compare Casinos?</h2>
+            <p>
+              View our ranked list of sweepstakes casinos and read full reviews
+              before signing up.
+            </p>
+
+            <a href="/best-sweepstakes-casinos" className="sr-claim-btn">
+              View Best Sweepstakes Casinos →
+            </a>
+          </div>
+        </div>
+      </main>
     </article>
   );
 }
