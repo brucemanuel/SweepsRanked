@@ -4,7 +4,7 @@ export const news = [
   title: "What Are Sweepstakes Casinos?",
   description:
     "Learn how sweepstakes casinos work, including Gold Coins, Sweep Coins, prize redemptions, and how they differ from traditional online casinos.",
-  image: "/public/newsimages/whataresc.png",
+  image: "/newsimages/whataresc.png",
   category: "Beginner Guide",
   publishedDate: "2026-05-08",
   sections: [
