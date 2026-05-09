@@ -9,8 +9,8 @@ function News() {
         <h1>Sweepstakes Casino News</h1>
 
         <p>
-          Explore sweepstakes casino news, rankings, comparisons,
-          and updates covering bonuses, payouts, and new platforms.
+          Explore sweepstakes casino news, rankings, comparisons, and updates
+          covering bonuses, payouts, and new platforms.
         </p>
       </div>
 
@@ -19,24 +19,23 @@ function News() {
           <article
             key={article.id}
             className="sr-news-card"
-            onClick={() =>
-              (window.location.href = `/news/${article.id}`)
-            }
+            onClick={() => (window.location.href = `/news/${article.id}`)}
           >
-            <div className="sr-news-image-placeholder"></div>
+            <div
+              className="sr-news-image-bg"
+              style={{ backgroundImage: `url(${article.image})` }}
+            >
+              <div className="sr-news-overlay"></div>
 
-            <div className="sr-news-content">
-              <span className="sr-news-category">
-                {article.category}
-              </span>
+              <div className="sr-news-content">
+                <span className="sr-news-category">{article.category}</span>
 
-              <h2>{article.title}</h2>
+                <h2>{article.title}</h2>
 
-              <p>{article.description}</p>
+                <p>{article.description}</p>
 
-              <span className="sr-news-read">
-                Read Article →
-              </span>
+                <span className="sr-news-read">Read Article →</span>
+              </div>
             </div>
           </article>
         ))}

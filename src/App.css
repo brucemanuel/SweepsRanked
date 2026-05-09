@@ -1695,6 +1695,57 @@ a {
   line-height: 1.6;
 }
 
+/* Better fitted news card images */
+.sr-news-image-bg {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+
+  /* 🔥 better image fitting */
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Dark transparent content area */
+.sr-news-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+
+  padding: 28px;
+
+  /* 🔥 glass dark overlay */
+  background: rgba(2, 6, 23, 0.58);
+  backdrop-filter: blur(8px);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Slightly stronger lower fade */
+.sr-news-overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(2, 6, 23, 0.82) 10%,
+      rgba(2, 6, 23, 0.34) 45%,
+      rgba(2, 6, 23, 0.08) 100%
+    );
+}
+
+@media (max-width: 800px) {
+  .sr-news-image-bg {
+    min-height: 360px;
+    background-position: top center;
+  }
+}
+
 /* Reduce spacing above homepage news section */
 .sr-home-news-scroll {
   margin-top: 20px;
@@ -1788,6 +1839,13 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.sr-news-image {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+}
+
 @media (max-width: 700px) {
   .sr-article-page {
     padding: 44px 4%;
@@ -1808,5 +1866,9 @@ a {
   .sr-article-cta {
     padding: 22px;
     border-radius: 18px;
+  }
+
+  .sr-news-image {
+    height: 170px;
   }
 }
