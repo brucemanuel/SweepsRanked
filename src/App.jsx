@@ -198,15 +198,23 @@ function Home() {
 
             <div className="sr-home-news-scroll">
               {news.slice(0, 4).map((article) => (
-                <article
-                  key={article.id}
-                  className="sr-home-news-card"
-                  onClick={() => (window.location.href = `/news/${article.id}`)}
-                >
+                <article>
+                  <div
+                className="sr-home-news-image-bg"
+                style={{ backgroundImage: `url(${article.image})` }}
+              >
+                <div className="sr-home-news-overlay"></div>
+
+                <div className="sr-home-news-content">
                   <span className="sr-news-category">{article.category}</span>
+
                   <h3>{article.title}</h3>
+
                   <p>{article.description}</p>
+
                   <span className="sr-news-read">Read Article →</span>
+                </div>
+              </div>
                 </article>
               ))}
             </div>
