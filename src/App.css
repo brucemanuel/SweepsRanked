@@ -2208,25 +2208,65 @@ a {
   line-height: 1.7;
 }
 
-@media (max-width: 850px) {
+/* Better mobile layout for debit redemption cards */
+@media (max-width: 700px) {
   .sr-debit-card {
-    grid-template-columns: 42px 64px 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .sr-debit-rank {
+    width: auto;
+    height: auto;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 0.85rem;
   }
 
   .sr-debit-logo {
-    width: 60px;
-    height: 60px;
+    width: 86px;
+    height: 86px;
+    align-self: center;
+    border-radius: 16px;
   }
 
-  .sr-debit-btn {
-    grid-column: 1 / -1;
+  .sr-debit-info {
+    width: 100%;
+  }
+
+  .sr-debit-info h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+
+  .sr-debit-info p {
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
   }
 
   .sr-debit-stats {
+    display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
   }
 
-  .sr-faq-grid {
-    grid-template-columns: 1fr;
+  .sr-debit-stats span {
+    text-align: center;
+    padding: 12px;
+  }
+
+  .sr-debit-btn {
+    width: 100%;
+    margin-top: 4px;
+    text-align: center;
   }
 }
