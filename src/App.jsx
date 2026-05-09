@@ -262,8 +262,14 @@ function App() {
     <div className="sr-page">
       <header className="sr-navbar">
   <a href="/" className="sr-logo">
-    SweepsRanked
-  </a>
+  <img
+    src="/logo.png"
+    alt="SweepsRanked Logo"
+    className="sr-logo-icon"
+  />
+
+  <span>SweepsRanked</span>
+</a>
 
   <button
     className="sr-menu-btn"
