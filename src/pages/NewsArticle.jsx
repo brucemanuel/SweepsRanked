@@ -29,16 +29,39 @@ function NewsArticle() {
         )}
       </header>
 
-      <div className="sr-article-content">
-        {article.sections.map((section, index) => (
-          <section key={index}>
-            <h2>{section.heading}</h2>
+      <div className="sr-article-shell">
+        <div className="sr-article-intro-card">
+          <h2>Quick Overview</h2>
+          <p>
+            This guide breaks down the basics in plain language so you can
+            understand how sweepstakes casinos work before choosing where to
+            play.
+          </p>
+        </div>
 
-            {section.paragraphs.map((paragraph, paragraphIndex) => (
-              <p key={paragraphIndex}>{paragraph}</p>
-            ))}
-          </section>
-        ))}
+        <div className="sr-article-sections">
+          {article.sections.map((section, index) => (
+            <section
+              key={index}
+              className={
+                index % 2 === 0
+                  ? "sr-article-section"
+                  : "sr-article-section reverse"
+              }
+            >
+              <div className="sr-article-section-heading">
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <h2>{section.heading}</h2>
+              </div>
+
+              <div className="sr-article-section-body">
+                {section.paragraphs.map((paragraph, paragraphIndex) => (
+                  <p key={paragraphIndex}>{paragraph}</p>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
 
         <div className="sr-article-cta">
           <h2>Compare Sweepstakes Casinos</h2>
