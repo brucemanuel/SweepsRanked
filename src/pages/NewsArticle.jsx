@@ -45,38 +45,84 @@ function NewsArticle() {
       </header>
 
       <main className="sr-article-card">
-        <h2>{article.title}</h2>
+        {article.intro && <p className="sr-article-intro">{article.intro}</p>}
 
-        <div className="sr-article-timeline">
-          {article.sections.map((section, index) => (
-            <section className="sr-article-timeline-item" key={index}>
-              <div className="sr-article-number">
-                {String(index + 1).padStart(2, "0")}
-              </div>
+        {article.sections?.map((section, index) => (
+          <section className="sr-article-basic-section" key={index}>
+            <h2>{section.heading}</h2>
 
-              <div className="sr-article-section-content">
-                <h3>{section.heading}</h3>
+            {section.paragraphs.map((paragraph, paragraphIndex) => (
+              <p key={paragraphIndex}>{paragraph}</p>
+            ))}
+          </section>
+        ))}
 
-                {section.paragraphs.map((paragraph, paragraphIndex) => (
-                  <p key={paragraphIndex}>{paragraph}</p>
-                ))}
-              </div>
-            </section>
-          ))}
-        </div>
+        {article.casinos && (
+          <section className="sr-debit-list">
+            <h2>Top Sweepstakes Casinos With Debit Card Redemptions</h2>
 
-        <div className="sr-article-conclusion">
-          <div className="sr-article-icon">★</div>
+            <div className="sr-debit-cards">
+              {article.casinos.map((casino, index) => (
+                <article className="sr-debit-card" key={casino.name}>
+                  <div className="sr-debit-rank">#{index + 1}</div>
 
-          <div>
-            <h2>Final Takeaway</h2>
-            <p>
-              Sweepstakes casinos can be fun and easy to explore, but users
-              should always compare platforms carefully, read the official terms,
-              understand redemption rules, and play responsibly.
-            </p>
-          </div>
-        </div>
+                  <img
+                    src={casino.logo}
+                    alt={casino.name}
+                    className="sr-debit-logo"
+                  />
+
+                  <div className="sr-debit-info">
+                    <h3>{casino.name}</h3>
+                    <p>{casino.description}</p>
+
+                    <div className="sr-debit-stats">
+                      <span>
+                        <strong>Payout Speed</strong>
+                        {casino.payoutSpeed}
+                      </span>
+
+                      <span>
+                        <strong>Min Redemption</strong>
+                        {casino.minRedemption}
+                      </span>
+
+                      <span>
+                        <strong>Method</strong>
+                        {casino.payoutMethod}
+                      </span>
+                    </div>
+                  </div>
+
+                  <a
+                    href={casino.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sr-claim-btn sr-debit-btn"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    Visit Casino
+                  </a>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {article.faqs && (
+          <section className="sr-article-faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div className="sr-faq-grid">
+              {article.faqs.map((faq) => (
+                <div className="sr-faq-card" key={faq.question}>
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <div className="sr-article-cta">
           <div className="sr-article-icon">🎁</div>
