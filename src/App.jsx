@@ -189,36 +189,40 @@ function Home() {
         </div>
       </section>
       <section id="top-casinos" className="sr-section">
-        <section className="sr-section">
-            <div className="sr-section-heading">
-              <p className="sr-eyebrow">Latest Updates</p>
-              <h2>Latest Sweepstakes Casino News</h2>
-              <p>Read the newest guides, comparisons, and sweepstakes casino updates.</p>
-            </div>
+       <section className="sr-section">
+  <div className="sr-section-heading">
+    <p className="sr-eyebrow">Latest Updates</p>
+    <h2>Latest Sweepstakes Casino News</h2>
+    <p>Read the newest guides, comparisons, and sweepstakes casino updates.</p>
+  </div>
 
-            <div className="sr-home-news-scroll">
-              {news.slice(0, 4).map((article) => (
-                <article>
-                  <div
-                className="sr-home-news-image-bg"
-                style={{ backgroundImage: `url(${article.image})` }}
-              >
-                <div className="sr-home-news-overlay"></div>
+  <div className="sr-home-news-scroll">
+  {news.slice(0, 4).map((article) => (
+    <article
+      key={article.id}
+      className="sr-home-news-card"
+      onClick={() => (window.location.href = `/news/${article.id}`)}
+    >
+      <div
+        className="sr-home-news-image-bg"
+        style={{ backgroundImage: `url(${article.image})` }}
+      >
+        <div className="sr-home-news-overlay"></div>
 
-                <div className="sr-home-news-content">
-                  <span className="sr-news-category">{article.category}</span>
+        <div className="sr-home-news-content">
+          <span className="sr-news-category">{article.category}</span>
 
-                  <h3>{article.title}</h3>
+          <h3>{article.title}</h3>
 
-                  <p>{article.description}</p>
+          <p>{article.description}</p>
 
-                  <span className="sr-news-read">Read Article →</span>
-                </div>
-              </div>
-                </article>
-              ))}
-            </div>
-          </section>
+          <span className="sr-news-read">Read Article →</span>
+        </div>
+      </div>
+    </article>
+  ))}
+</div>
+</section>
       </section>
       <section id="categories" className="sr-section sr-categories-section">
         <div className="sr-section-heading">
