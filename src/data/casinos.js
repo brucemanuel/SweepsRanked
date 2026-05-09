@@ -674,7 +674,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/stackr.jpg",
-  link: "https://example.com/ref",
+  link: "https://www.sp9gj4rvm.com/262DXM/2CTPL/",
 
   isTop: false,
   isNew: true,
