@@ -904,4 +904,852 @@ export const casinos = [
     "Smaller overall reputation"
   ]
 },
+{
+  id: "dimesweeps",
+  name: "DimeSweeps",
+  logo: "/logos/dimesweeps.png",
+
+  rating: 4.7,
+  trustpilotRating: 4.4,
+  reviewCount: 1200,
+
+  label: "Fast Payouts",
+  bonus: "Free SC + Gold Coins",
+
+  bestFor: "Instant debit redemptions",
+  redemption: "Instant",
+
+  minPurchase: "$4.99",
+  minRedemption: "$25",
+
+  payments: ["Visa Debit", "Mastercard Debit"],
+  availability: "Most US states",
+
+  launchDate: "2025-06-14",
+  redemptionScore: 9.6,
+
+  link: "https://dimesweeps.com/",
+
+  overview:
+    "DimeSweeps is widely discussed for its fast debit card redemptions and quick push-to-card payout options.",
+
+  bonusBreakdown:
+    "DimeSweeps may offer welcome bonuses, free SC rewards, and rotating promotional offers.",
+
+  legitSummary:
+    "DimeSweeps operates using the sweepstakes casino model in supported regions.",
+
+  finalVerdict:
+    "DimeSweeps stands out for users looking for quicker debit card payout options and smoother redemption processing.",
+
+  pros: [
+    "Very fast payout reputation",
+    "Debit card redemption support",
+    "Popular among sweeps users"
+  ],
+
+  cons: [
+    "Availability may vary by state",
+    "Verification may delay first redemption"
+  ],
+},
+
+{
+  id: "richsweeps",
+  name: "Rich Sweeps",
+  logo: "/logos/richsweeps.jpeg",
+
+  rating: 4.6,
+  trustpilotRating: 4.2,
+  reviewCount: 910,
+
+  label: "Fast Cashouts",
+  bonus: "Welcome SC package",
+
+  bestFor: "Debit card payouts",
+  redemption: "Fast",
+
+  minPurchase: "$4.99",
+  minRedemption: "$25",
+
+  payments: ["Visa Debit", "Debit Card"],
+  availability: "Most US states",
+
+  launchDate: "2025-08-11",
+  redemptionScore: 9.2,
+
+  link: "https://richsweeps.com/",
+
+  overview:
+    "Rich Sweeps is known for fast redemption processing and debit card payout support.",
+
+  bonusBreakdown:
+    "Eligible users may receive signup rewards and promotional SC packages.",
+
+  legitSummary:
+    "Rich Sweeps uses the promotional sweepstakes casino model in supported states.",
+
+  finalVerdict:
+    "Rich Sweeps is commonly discussed by users looking for faster debit card cashouts.",
+
+  pros: [
+    "Quick payout reputation",
+    "Simple redemption flow",
+    "Fast debit card processing"
+  ],
+
+  cons: [
+    "Limited public reputation compared to larger brands",
+    "Some payout speeds may vary"
+  ],
+},
+
+{
+  id: "sweetsweeps",
+  name: "Sweet Sweeps",
+  logo: "/logos/sweetsweeps.png",
+
+  rating: 4.5,
+  trustpilotRating: 4.1,
+  reviewCount: 740,
+
+  label: "Same-Day Payouts",
+  bonus: "Daily SC rewards",
+
+  bestFor: "Fast redemptions",
+  redemption: "Same-Day",
+
+  minPurchase: "$2.99",
+  minRedemption: "$20",
+
+  payments: ["Debit Card", "Visa Debit"],
+  availability: "Most US states",
+
+  launchDate: "2025-10-02",
+  redemptionScore: 8.9,
+
+  link: "https://sweetsweeps.com/",
+
+  overview:
+    "Sweet Sweeps has developed a reputation among players for smoother debit card payout experiences.",
+
+  bonusBreakdown:
+    "Sweet Sweeps may provide free daily rewards and rotating signup bonuses.",
+
+  legitSummary:
+    "Sweet Sweeps operates using the sweepstakes casino model in supported areas.",
+
+  finalVerdict:
+    "Sweet Sweeps may appeal to users looking for simpler gameplay and quicker redemptions.",
+
+  pros: [
+    "Fast payout reports",
+    "Beginner-friendly layout",
+    "Lower minimum redemption"
+  ],
+
+  cons: [
+    "Smaller overall brand presence",
+    "Fewer public reviews"
+  ],
+},
+
+{
+  id: "thrillcoins",
+  name: "Thrill Coins",
+  logo: "/logos/thrillcoins.png",
+
+  rating: 4.6,
+  trustpilotRating: 4.3,
+  reviewCount: 860,
+
+  label: "Instant Style Payouts",
+  bonus: "Welcome coins package",
+
+  bestFor: "Quick processing",
+  redemption: "Fast",
+
+  minPurchase: "$4.99",
+  minRedemption: "$25",
+
+  payments: ["Push-to-Card", "Visa Debit"],
+  availability: "Most US states",
+
+  launchDate: "2025-09-15",
+  redemptionScore: 9.1,
+
+  link: "https://thrillcoins.com/",
+
+  overview:
+    "Thrill Coins is frequently associated with fast redemption processing and smoother payout systems.",
+
+  bonusBreakdown:
+    "The platform may offer rotating bonuses and promotional sweepstakes rewards.",
+
+  legitSummary:
+    "Thrill Coins follows the sweepstakes casino promotional model in supported locations.",
+
+  finalVerdict:
+    "Thrill Coins is often discussed by users focused on payout speed and debit redemptions.",
+
+  pros: [
+    "Quick redemption reputation",
+    "Modern platform design",
+    "Fast payout discussions"
+  ],
+
+  cons: [
+    "Smaller platform",
+    "Availability may vary"
+  ],
+},
+
+{
+  id: "spinquest",
+  name: "SpinQuest",
+  logo: "/logos/spinquest.png",
+
+  rating: 4.5,
+  trustpilotRating: 4.0,
+  reviewCount: 690,
+
+  label: "Fast Verified Payouts",
+  bonus: "SC welcome reward",
+
+  bestFor: "Verified debit payouts",
+  redemption: "Instant",
+
+  minPurchase: "$4.99",
+  minRedemption: "$25",
+
+  payments: ["Visa Debit"],
+  availability: "Most US states",
+
+  launchDate: "2025-11-03",
+  redemptionScore: 8.8,
+
+  link: "https://spinquest.com/",
+
+  overview:
+    "SpinQuest is frequently mentioned by users searching for instant-style debit card payouts after verification.",
+
+  bonusBreakdown:
+    "SpinQuest may offer promotional rewards and sweepstakes bonuses for eligible users.",
+
+  legitSummary:
+    "SpinQuest operates under the sweepstakes casino model in available regions.",
+
+  finalVerdict:
+    "SpinQuest may appeal to users prioritizing quicker debit payout options.",
+
+  pros: [
+    "Fast payout discussions",
+    "Simple platform",
+    "Debit redemption support"
+  ],
+
+  cons: [
+    "Smaller player base",
+    "Limited public reviews"
+  ],
+},
+
+{
+  id: "funzpoints",
+  name: "Funzpoints",
+  logo: "/logos/funzpoints.png",
+
+  rating: 4.4,
+  trustpilotRating: 4.0,
+  reviewCount: 1500,
+
+  label: "Established",
+  bonus: "Free daily rewards",
+
+  bestFor: "Reliable fast payouts",
+  redemption: "Fast",
+
+  minPurchase: "$4.99",
+  minRedemption: "$20",
+
+  payments: ["Debit Card", "Visa Debit"],
+  availability: "Most US states",
+
+  launchDate: "2024-03-20",
+  redemptionScore: 8.7,
+
+  link: "https://funzpoints.com/",
+
+  overview:
+    "Funzpoints is one of the more established names commonly associated with faster redemption discussions.",
+
+  bonusBreakdown:
+    "Funzpoints may offer ongoing free rewards and promotional coin packages.",
+
+  legitSummary:
+    "Funzpoints operates as a sweepstakes casino platform in supported locations.",
+
+  finalVerdict:
+    "Funzpoints may appeal to users looking for a longer-running sweeps platform with faster payout discussions.",
+
+  pros: [
+    "Established reputation",
+    "Fast payout reputation",
+    "Lower minimum redemption"
+  ],
+
+  cons: [
+    "Older interface",
+    "Fewer modern features"
+  ],
+},
+
+{
+  id: "moozicasino",
+  name: "Moozi Casino",
+  logo: "/logos/moozi.png",
+
+  rating: 4.4,
+  trustpilotRating: 4.1,
+  reviewCount: 510,
+
+  label: "Growing Platform",
+  bonus: "Welcome sweepstakes rewards",
+
+  bestFor: "Quick debit cashouts",
+  redemption: "Fast",
+
+  minPurchase: "$3.99",
+  minRedemption: "$25",
+
+  payments: ["Push-to-Card", "Debit Card"],
+  availability: "Most US states",
+
+  launchDate: "2025-12-02",
+  redemptionScore: 8.5,
+
+  link: "https://moozi.com/",
+
+  overview:
+    "Moozi Casino has gained attention for faster redemption support and smoother payout experiences.",
+
+  bonusBreakdown:
+    "Users may receive promotional bonuses and rotating sweepstakes rewards.",
+
+  legitSummary:
+    "Moozi Casino follows the sweepstakes casino model where available.",
+
+  finalVerdict:
+    "Moozi Casino may appeal to users looking for a newer platform with faster payout support.",
+
+  pros: [
+    "Quick payout reports",
+    "Modern interface",
+    "Debit redemption support"
+  ],
+
+  cons: [
+    "Smaller reputation",
+    "Limited overall history"
+  ],
+},
+{
+  id: "megabonanza",
+  name: "Mega Bonanza",
+  logo: "/logos/megabonanza.png",
+
+  rating: 4.4,
+  trustpilotRating: 4.0,
+  reviewCount: 820,
+
+  label: "Popular",
+  bonus: "Welcome bonus available",
+
+  bestFor: "Bonus seekers",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "Apple Pay"],
+  availability: "Most US states",
+
+  launchDate: "2024-08-15",
+  redemptionScore: 7.4,
+
+  link: "https://www.megabonanza.com/",
+
+  overview:
+    "Mega Bonanza is a sweepstakes casino platform focused on promotional bonuses, slot-style games, and a modern user experience.",
+
+  bonusBreakdown:
+    "Mega Bonanza may offer welcome bonuses and rotating promotional rewards for eligible users.",
+
+  legitSummary:
+    "Mega Bonanza operates using the sweepstakes casino model in supported regions.",
+
+  finalVerdict:
+    "Mega Bonanza may be a good option for users looking for a bonus-focused sweepstakes casino with a modern feel.",
+
+  pros: [
+    "Modern platform",
+    "Good bonus potential",
+    "Large game selection"
+  ],
+
+  cons: [
+    "Redemption speed may vary",
+    "Newer than larger established brands"
+  ],
+},
+
+{
+  id: "jackpota",
+  name: "Jackpota",
+  logo: "/logos/jackpota.png",
+
+  rating: 4.3,
+  trustpilotRating: 4.0,
+  reviewCount: 690,
+
+  label: "Newer Platform",
+  bonus: "Welcome offer available",
+
+  bestFor: "New players",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "PayPal"],
+  availability: "Most US states",
+
+  launchDate: "2024-09-10",
+  redemptionScore: 7.2,
+
+  link: "https://www.jackpota.com/",
+
+  overview:
+    "Jackpota is a newer sweepstakes casino that offers casino-style games, promotional rewards, and a beginner-friendly platform experience.",
+
+  bonusBreakdown:
+    "Jackpota may offer signup rewards and limited-time promotions depending on availability.",
+
+  legitSummary:
+    "Jackpota follows the sweepstakes casino model and is available in supported regions.",
+
+  finalVerdict:
+    "Jackpota may be worth considering for users who want to try a newer sweepstakes casino with simple navigation and promotional offers.",
+
+  pros: [
+    "Beginner-friendly",
+    "Clean interface",
+    "Promotional bonuses"
+  ],
+
+  cons: [
+    "Limited history",
+    "Redemption details may vary"
+  ],
+},
+
+{
+  id: "realprize",
+  name: "RealPrize",
+  logo: "/logos/realprize.png",
+
+  rating: 4.5,
+  trustpilotRating: 4.1,
+  reviewCount: 980,
+
+  label: "Reward Focused",
+  bonus: "Welcome reward available",
+
+  bestFor: "Prize redemptions",
+  redemption: "Fast",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "Apple Pay"],
+  availability: "Most US states",
+
+  launchDate: "2023-11-20",
+  redemptionScore: 8.0,
+
+  link: "https://realprize.com/",
+
+  overview:
+    "RealPrize is a sweepstakes casino platform focused on prize redemptions, promotional rewards, and a polished user experience.",
+
+  bonusBreakdown:
+    "RealPrize may offer welcome rewards, daily bonuses, and promotional coin packages.",
+
+  legitSummary:
+    "RealPrize operates under the sweepstakes casino model in eligible locations.",
+
+  finalVerdict:
+    "RealPrize is a strong option for users looking for a modern sweeps platform with a focus on prize redemption.",
+
+  pros: [
+    "Modern design",
+    "Reward-focused experience",
+    "Good usability"
+  ],
+
+  cons: [
+    "Availability may vary",
+    "Promotions can change"
+  ],
+},
+
+{
+  id: "high5casino",
+  name: "High 5 Casino",
+  logo: "/logos/high5.jpg",
+
+  rating: 4.5,
+  trustpilotRating: 4.1,
+  reviewCount: 2100,
+
+  label: "Established",
+  bonus: "Free coins available",
+
+  bestFor: "Slot players",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "PayPal"],
+  availability: "Most US states",
+
+  launchDate: "2012-01-01",
+  redemptionScore: 7.3,
+
+  link: "https://high5casino.com/",
+
+  overview:
+    "High 5 Casino is an established social and sweepstakes casino known for its large slot-style game library and long-running brand presence.",
+
+  bonusBreakdown:
+    "High 5 Casino may offer free coins, welcome rewards, and ongoing promotional offers.",
+
+  legitSummary:
+    "High 5 Casino is a long-running platform that operates sweepstakes-style play in supported regions.",
+
+  finalVerdict:
+    "High 5 Casino is a solid choice for users who want an established platform with a large selection of slot-style games.",
+
+  pros: [
+    "Established brand",
+    "Large slot library",
+    "Beginner-friendly"
+  ],
+
+  cons: [
+    "Redemption may not be the fastest",
+    "Interface may feel busy"
+  ],
+},
+
+{
+  id: "megafrenzy",
+  name: "Mega Frenzy",
+  logo: "/logos/megafrenzy.png",
+
+  rating: 4.3,
+  trustpilotRating: 4.0,
+  reviewCount: 620,
+
+  label: "Bonus Friendly",
+  bonus: "Welcome bonus available",
+
+  bestFor: "Promotions",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "Apple Pay"],
+  availability: "Most US states",
+
+  launchDate: "2024-10-01",
+  redemptionScore: 7.1,
+
+  link: "https://www.megafrenzy.com/",
+
+  overview:
+    "Mega Frenzy is a newer sweepstakes casino that focuses on promotional offers, slot-style games, and a simple user experience.",
+
+  bonusBreakdown:
+    "Mega Frenzy may offer welcome bonuses and rotating promotional rewards.",
+
+  legitSummary:
+    "Mega Frenzy operates using the sweepstakes casino model in supported regions.",
+
+  finalVerdict:
+    "Mega Frenzy may be a good fit for users looking for a newer platform with frequent promotions.",
+
+  pros: [
+    "Promotion-focused",
+    "Simple layout",
+    "Newer platform"
+  ],
+
+  cons: [
+    "Limited long-term reputation",
+    "Redemption speed may vary"
+  ],
+},
+
+{
+  id: "spree",
+  name: "Spree",
+  logo: "/logos/spree.png",
+
+  rating: 4.4,
+  trustpilotRating: 4.1,
+  reviewCount: 780,
+
+  label: "Fast Growing",
+  bonus: "Welcome rewards available",
+
+  bestFor: "Modern users",
+  redemption: "Fast",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "Apple Pay"],
+  availability: "Most US states",
+
+  launchDate: "2024-05-12",
+  redemptionScore: 8.1,
+
+  link: "https://spree.com/",
+
+  overview:
+    "Spree is a newer sweepstakes casino platform with a modern look, promotional rewards, and a growing reputation among sweeps players.",
+
+  bonusBreakdown:
+    "Spree may offer welcome rewards, daily bonuses, and limited-time promotional offers.",
+
+  legitSummary:
+    "Spree operates using the sweepstakes casino model in supported areas.",
+
+  finalVerdict:
+    "Spree may appeal to users looking for a newer, modern sweepstakes casino with a smoother user experience.",
+
+  pros: [
+    "Modern platform",
+    "Growing reputation",
+    "Good user experience"
+  ],
+
+  cons: [
+    "Newer than established brands",
+    "Availability may vary"
+  ],
+},
+
+{
+  id: "nolimitcoins",
+  name: "NoLimitCoins",
+  logo: "/logos/nolimitcoins.png",
+
+  rating: 4.3,
+  trustpilotRating: 3.9,
+  reviewCount: 540,
+
+  label: "Fast Payout Focus",
+  bonus: "Free coins available",
+
+  bestFor: "Fast redemptions",
+  redemption: "Fast",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "PayPal"],
+  availability: "Most US states",
+
+  launchDate: "2023-09-18",
+  redemptionScore: 8.0,
+
+  link: "https://nolimitcoins.com/",
+
+  overview:
+    "NoLimitCoins is a sweepstakes casino that is often discussed for its straightforward platform and faster redemption experience.",
+
+  bonusBreakdown:
+    "NoLimitCoins may offer free coins, welcome rewards, and ongoing promotional bonuses.",
+
+  legitSummary:
+    "NoLimitCoins operates using the sweepstakes casino model in supported regions.",
+
+  finalVerdict:
+    "NoLimitCoins may be a good option for users looking for a simple platform with faster redemption potential.",
+
+  pros: [
+    "Fast payout reputation",
+    "Simple experience",
+    "Promotional rewards"
+  ],
+
+  cons: [
+    "Smaller brand presence",
+    "Limited public review volume"
+  ],
+},
+
+{
+  id: "casinoclick",
+  name: "Casino.Click",
+  logo: "/logos/casinoclick.jpg",
+
+  rating: 4.2,
+  trustpilotRating: 3.9,
+  reviewCount: 430,
+
+  label: "Fast Platform",
+  bonus: "Welcome bonus available",
+
+  bestFor: "Quick gameplay",
+  redemption: "Fast",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "Apple Pay"],
+  availability: "Most US states",
+
+  launchDate: "2024-04-22",
+  redemptionScore: 7.9,
+
+  link: "https://casino.click/",
+
+  overview:
+    "Casino.Click is a sweepstakes casino platform focused on quick access, simple navigation, and casino-style entertainment.",
+
+  bonusBreakdown:
+    "Casino.Click may offer signup promotions and rotating rewards for eligible users.",
+
+  legitSummary:
+    "Casino.Click operates under the sweepstakes casino model in supported areas.",
+
+  finalVerdict:
+    "Casino.Click may appeal to users who want a simple sweepstakes casino experience with faster platform navigation.",
+
+  pros: [
+    "Simple platform",
+    "Fast experience",
+    "Easy navigation"
+  ],
+
+  cons: [
+    "Less established brand",
+    "Limited public reputation"
+  ],
+},
+
+{
+  id: "dingdingding",
+  name: "Ding Ding Ding",
+  logo: "/logos/dingdingding.png",
+
+  rating: 4.2,
+  trustpilotRating: 3.8,
+  reviewCount: 870,
+
+  label: "Casual Play",
+  bonus: "Free coins available",
+
+  bestFor: "Casual players",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "PayPal"],
+  availability: "Most US states",
+
+  launchDate: "2021-01-01",
+  redemptionScore: 6.9,
+
+  link: "https://dingdingding-casino.com/",
+
+  overview:
+    "Ding Ding Ding is a social and sweepstakes-style casino platform with casual games, promotions, and a simple user experience.",
+
+  bonusBreakdown:
+    "Ding Ding Ding may offer free coin rewards, daily bonuses, and promotional offers.",
+
+  legitSummary:
+    "Ding Ding Ding operates sweepstakes-style play in supported locations.",
+
+  finalVerdict:
+    "Ding Ding Ding may be a good option for casual users looking for a simple sweepstakes casino experience.",
+
+  pros: [
+    "Casual-friendly",
+    "Free coin rewards",
+    "Simple interface"
+  ],
+
+  cons: [
+    "Not the fastest redemption option",
+    "Less premium design"
+  ],
+},
+
+{
+  id: "rollingriches",
+  name: "Rolling Riches",
+  logo: "/logos/rollingriches.jpg",
+
+  rating: 4.1,
+  trustpilotRating: 3.8,
+  reviewCount: 360,
+
+  label: "Emerging",
+  bonus: "Welcome rewards available",
+
+  bestFor: "New platforms",
+  redemption: "Standard",
+
+  minPurchase: "$4.99",
+  minRedemption: "$50",
+
+  payments: ["Visa", "Mastercard", "Apple Pay"],
+  availability: "Most US states",
+
+  launchDate: "2025-02-14",
+  redemptionScore: 6.8,
+
+  link: "https://www.rollingriches.com/",
+
+  overview:
+    "Rolling Riches is an emerging sweepstakes casino platform focused on promotional rewards and a straightforward gaming experience.",
+
+  bonusBreakdown:
+    "Rolling Riches may offer welcome rewards and rotating promotional bonuses.",
+
+  legitSummary:
+    "Rolling Riches operates under the sweepstakes casino model in supported regions.",
+
+  finalVerdict:
+    "Rolling Riches may be a reasonable option for users interested in newer sweepstakes casino platforms.",
+
+  pros: [
+    "Newer platform",
+    "Simple layout",
+    "Promotional offers"
+  ],
+
+  cons: [
+    "Limited reputation",
+    "Redemption details may vary"
+  ],
+},
 ];
