@@ -518,7 +518,7 @@ export const casinos = [
   minRedemption: "$50",
 
   logo: "/logos/chanced.jpg",
-  link: "https://chanced.com/",
+  link: "https://tracking.chanced.com/C.ashx?btag=a_897b_11c_&affid=255&siteid=897&adid=11&c=",
 
   isTop: false,
   isNew: true,
