@@ -1752,4 +1752,75 @@ export const casinos = [
     "Redemption details may vary"
   ],
 },
+
+
+{
+  id: "punt",
+  name: "Punt",
+  label: "Crypto Friendly",
+  rating: 4.1,
+
+  bonus: "Welcome rewards available",
+  bestFor: "Crypto-style casino players",
+  redemption: "Fast",
+
+  trustpilotRating: 4.1,
+  reviewCount: 529,
+
+  redemptionScore: 8.3,
+
+  launchDate: "2024-01-01",
+  addedDate: "2026-05-11",
+
+  newStatus: "brand-new",
+
+  minPurchase: "$4.99",
+
+  payments: [
+    "Visa",
+    "Mastercard",
+    "Crypto",
+    "ACH"
+  ],
+
+  availability: "Most US states",
+
+  minRedemption: "100 SC",
+
+  logo: "/logos/punt.jpg",
+
+  link: "https://tracking.punt.com/C.ashx?btag=a_897b_12c_&affid=255&siteid=897&adid=12&c=",
+
+  isTop: false,
+  isNew: true,
+  fastPayout: true,
+
+  pros: [
+    "Very fast redemption speeds",
+    "Large game library",
+    "Crypto-friendly platform",
+    "Modern user interface",
+    "Frequent promotions"
+  ],
+
+  cons: [
+    "Still relatively new",
+    "No mobile app",
+    "Mixed customer service reviews",
+    "Limited long-term reputation"
+  ],
+
+  overview:
+    "Punt is a newer sweepstakes casino platform focused on fast redemptions, a modern interface, and a crypto-friendly experience. The platform has quickly gained popularity among sweepstakes casino players.",
+
+  bonusBreakdown:
+    "Punt offers various signup promotions, hourly bonuses, referral rewards, and rotating promotional events depending on availability.",
+
+  legitSummary:
+    "Punt operates using the sweepstakes casino model and is available in most US states. The platform uses KYC verification and SSL encryption for account security and prize redemption.",
+
+  finalVerdict:
+    "Punt is one of the faster-growing sweepstakes casino platforms thanks to its quick payouts, modern design, and strong game selection. While still newer than major competitors, it has developed a strong reputation among many users."
+},
+
 ];
